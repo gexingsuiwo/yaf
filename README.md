@@ -8,9 +8,9 @@ YAF-WLY
 5. redis 底层封装
 6. memcache 底层封装
 7. mongodb 底层封装
-8. 后台加入布局Bootstrap
+8. 后台加入布局Bootstrap插件
 9. 支持cli模式执行程序
-10. 自定义错误处理,错误日志加入mongodb中
+10. 自定义错误处理加入mongodb中
 
 测试坏境部署
 yaf扩展安装
