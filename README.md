@@ -17,6 +17,7 @@ yaf扩展安装
 参考：http://www.laruence.com/manual/
 
 php.ini配置
+```
 [yaf]
 yaf.environ = develop
 ;product
@@ -27,8 +28,9 @@ yaf.forward_limit = 5
 yaf.use_namespace = 1
 yaf.use_spl_autoload = 1
 extension=yaf.so
-
+```
 vhosts配置
+```
 <VirtualHost *:80>
         ServerName  myyaf.dev.com
         DocumentRoot  /Users/wangliuyang/study/myyaf/public/
@@ -50,8 +52,10 @@ vhosts配置
         SetEnv YAF_CACHE_DIR "/var/data/cache/myyaf.dev.com"
 
 </VirtualHost>
+```
 
 nginx配置
+```
 server {
     listen 80;
     server_name myyaf.dev.com;
@@ -87,5 +91,5 @@ server {
 
 fastcgi_params_yaf文件
 fastcgi_param YAF_CACHE_DIR "/var/data/cache/myyaf.dev.com";
-
+```
 如有问题或建议可以发送邮件 gexingsuiwo@126.com
