@@ -66,7 +66,8 @@ server {
         root  /Users/wangliuyang/study/myyaf/public/;
         fastcgi_pass   127.0.0.1:9000;
         fastcgi_index  index.php;
-        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+        fastcgi_param  SCRIPT_FILENAME  
+        $document_root $fastcgi_script_name;
         send_timeout   60;
         include        fastcgi_params;
         include        fastcgi_params_yaf;
