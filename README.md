@@ -1,16 +1,16 @@
 # yaf
 YAF-WLY
 是基于yaf框架开的，加入如下特性：
-1、整合smarty
-2、整合phpConsole调试插件
-3、整合xhprof性能分析插件
-4、mysql 底层封装（支持连贯、主从）
-5、redis 底层封装
-6、memcache 底层封装
-7、mongodb 底层封装
-8、后台加入布局Bootstrap插件
-9、支持cli模式执行程序
-10、自定义错误处理加入mongodb中
+1. 整合smarty
+2. 整合phpConsole调试插件
+3. 整合xhprof性能分析插件
+4. mysql 底层封装（支持连贯、主从）
+5. redis 底层封装
+6. memcache 底层封装
+7. mongodb 底层封装
+8. 后台加入布局Bootstrap
+9. 支持cli模式执行程序
+10. 自定义错误处理,错误日志加入mongodb中
 
 测试坏境部署
 yaf扩展安装
@@ -92,4 +92,4 @@ server {
 fastcgi_params_yaf文件
 fastcgi_param YAF_CACHE_DIR "/var/data/cache/myyaf.dev.com";
 ```
-如有问题或建议可以发送邮件 gexingsuiwo@126.com
+如有问题或建议可以发送邮件 447998931@qq.com
